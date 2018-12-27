@@ -1,3 +1,5 @@
+<script>
+    
 function notifyMe() {
     if (!("Notification" in window)) {
         alert("This browser does not support desktop notification");
@@ -39,3 +41,5 @@ var options = {
     dir : "ltr"
 };
 var notification = new Notification('Driver', options); 
+
+</script>
